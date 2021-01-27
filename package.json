@@ -1,0 +1,32 @@
+{
+  "name": "codiscovery-audiorecognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon --watch . ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audio-converter": "^1.0.13",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-node": "0.0.2",
+    "file-type": "^16.2.0",
+    "form-data": "^3.0.0",
+    "formidable-serverless": "^1.1.1",
+    "md5": "^2.3.0",
+    "media-converter": "^1.1.7",
+    "mongodb": "^3.6.3",
+    "mp3-cutter": "^1.0.6",
+    "multer": "^1.4.2",
+    "music-metadata": "^7.5.3",
+    "nodemon": "^2.0.7",
+    "querystring": "^0.2.0"
+  }
+}

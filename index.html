@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Recognition</title>
+    <script
+      src="https://kit.fontawesome.com/eb159336d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Coeus : Music Recongizer</h1>
+    <form method="post" action="/data" enctype="multipart/form-data">
+      <label for="file-input" class="btn">
+        <i class="fas fa-file-upload"></i> Upload your audio!
+      </label>
+      <input type="file" id="file-input" name="filename" />
+
+      <label for="submit" class="btn">
+        <i class="fa fa-paper-plane" aria-hidden="true"></i> And identify it!
+      </label>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>

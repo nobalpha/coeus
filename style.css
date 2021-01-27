@@ -1,0 +1,11 @@
+* {
+  margin: 30px;
+}
+
+i {
+  transform: scale(3, 3);
+}
+
+input {
+  display: none;
+}
